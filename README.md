@@ -34,16 +34,3 @@
 ## 📊 Codeforces Solutions Repository
 
 This repository serves as a personal archive of my accepted C++ submissions on Codeforces. It is actively maintained as I continue to practice, optimize algorithms, and participate in contests.
-
-### 📁 Repository Structure
-The workspace is organized logically by problem difficulty ratings to make navigation and review easy:
-
-```text
-📦 Codeforces-Solutions
- ┣ 📂 800
- ┃ ┣ 📜 4A_Watermelon.cpp
- ┃ ┗ 📜 71A_Way_Too_Long_Words.cpp
- ┣ 📂 900
- ┃ ┗ 📜 ...
- ┣ 📂 1000
- ┗ 📜 README.md
