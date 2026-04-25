@@ -9,20 +9,20 @@ void solve(){
     string s;
     cin >> s;
 
-    bool empty3 = false;
-    int empcnt = 0;
+    int l = 0, r = n-1;
 
-    for(int i=0; i<n; i++){
+    while(l<=r){
 
-        if(s[i] == '.' && i+1<n && s[i+1] == '.' && i+2<n && s[i+2] == '.'){
-            empty3 = true;
-            break;
-
+        if(s[l] == '?' && s[r]=='?'){
+            cout << "NO" << endl;
+            return;
+            
         }
-        if(s[i] == '.') empcnt++;
+        l++;
+        r--;
     }
-    if(empty3) cout << 2 << endl;
-    else cout << empcnt << endl;
+    cout << "YES" << endl;
+
 }
 
 int main() {
